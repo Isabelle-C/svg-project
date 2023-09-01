@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "svg-project"
+version = "0.1.0"
+description = ""
+authors = ["Isabelle-C <isabellechen2023@u.northwestern.edu>"]
+readme = "README.md"
+packages = [{include = "svg_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.3"
+numpy = "^1.25.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
